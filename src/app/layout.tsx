@@ -11,7 +11,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Orqys",
+  title: "Orqys Playground - Next.js 15+",
   description: "A premium application.",
   icons: {
     icon: "/images/logo/orqys-logo.png",
