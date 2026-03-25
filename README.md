@@ -4,8 +4,6 @@
 
 This repository, **Orqys Playground**, serves as a live, interactive demo environment where users can witness the power of our platform in real-time. It is a fully functional Next.js dashboard that Orqys can modify, extend, and maintain based on your natural language descriptions.
 
-![Orqys Playground Banner](./banner.png)
-
 ---
 
 ## 🏗️ How the Instant Demo Works
