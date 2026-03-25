@@ -4,9 +4,21 @@ import "flatpickr/dist/flatpickr.css";
 import { SidebarProvider } from '@/context/SidebarContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 
+import { Metadata } from 'next';
+
 const outfit = Outfit({
   subsets: ["latin"],
 });
+
+export const metadata: Metadata = {
+  title: "Orqys",
+  description: "A premium application.",
+  icons: {
+    icon: "/images/logo/orqys-logo.png",
+    shortcut: "/images/logo/orqys-logo.png",
+    apple: "/images/logo/orqys-logo.png",
+  },
+};
 
 export default function RootLayout({
   children,
