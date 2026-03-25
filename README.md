@@ -1,200 +1,75 @@
-# Orqys Next.js - Free Next.js Tailwind Admin Dashboard Template
+# Orqys Playground 🚀
 
-Orqys is a free and open-source admin dashboard template built on **Next.js and Tailwind CSS** providing developers with everything they need to create a feature-rich and data-driven: back-end, dashboard, or admin panel solution for any sort of web project.
+**Orqys** is a powerful orchestration platform designed to bridge the gap between description and deployment. Our motto is simple: *Describe it, Orqys builds it.*
 
-![Orqys - Next.js Dashboard Preview](./banner.png)
+This repository, **Orqys Playground**, serves as a live, interactive demo environment where users can witness the power of our platform in real-time. It is a fully functional Next.js dashboard that Orqys can modify, extend, and maintain based on your natural language descriptions.
 
-With Orqys Next.js, you get access to all the necessary dashboard UI components, elements, and pages required to build a high-quality and complete dashboard or admin panel. Whether you're building a dashboard or admin panel for a complex web application or a simple website.
+![Orqys Playground Banner](./banner.png)
 
-Orqys utilizes the powerful features of **Next.js 16** and common features of Next.js such as server-side rendering (SSR), static site generation (SSG), and seamless API route integration. Combined with the advancements of **React 19** and the robustness of **TypeScript**, Orqys is the perfect solution to help get your project up and running quickly.
+---
 
-## Overview
+## 🏗️ How the Instant Demo Works
 
-Orqys provides essential UI components and layouts for building feature-rich, data-driven admin dashboards and control panels. It's built on:
+Experience the future of development in three simple steps:
 
-* Next.js 16.x
-* React 19
-* TypeScript
-* Tailwind CSS V4
+### 1. Request an Instant Demo
+Visit our [Landing Page](https://orqys.com) and click on the **"Try Instant Demo"** button. You will be asked to enter your email address to get started.
 
-### Quick Links
+### 2. Enter Your Dedicated Slack Channel
+Once you submit your email, Orqys automatically creates a dedicated, private channel for you in our **Slack Workspace**. You will receive an invite link to join this channel.
 
-* [✨ Visit Website](https://Orqys.com)
-* [📄 Documentation](https://Orqys.com/docs)
-* [⬇️ Download](https://Orqys.com/download)
-* [🖌️ Figma Design File (Community Edition)](https://www.figma.com/community/file/1463141366275764364)
-* [⚡ Get PRO Version](https://Orqys.com/pricing)
+### 3. Describe Your Task
+In your dedicated Slack channel, simply **tag our Orqys Bot** and describe a task or a feature you'd like to see in this playground. For example:
+> "@Orqys Add a new 'User Analytics' chart to the ecommerce dashboard with a dark purple theme."
 
-### Demos
+### 4. Watch the Magic Happen
+Orqys will process your request, generate the necessary code changes, and **automatically create a Pull Request (PR)** in this repository. You can then review the code and see your requested feature come to life in the playground.
 
-* [Free Version](https://nextjs-free-demo.Orqys.com)
-* [Pro Version](https://nextjs-demo.Orqys.com)
+---
 
-### Other Versions
+## 🛠️ Technology Stack
 
-- [Next.js Version](https://github.com/Orqys/free-nextjs-admin-dashboard)
-- [React.js Version](https://github.com/Orqys/free-react-tailwind-admin-dashboard)
-- [Vue.js Version](https://github.com/Orqys/vue-tailwind-admin-dashboard)
-- [Angular Version](https://github.com/Orqys/free-angular-tailwind-dashboard)
-- [Laravel Version](https://github.com/Orqys/Orqys-laravel)
+The Orqys Playground is built using a modern, high-performance stack:
 
-## Installation
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **UI Components**: Custom premium components optimized for performance and accessibility.
+- **Charts**: [ApexCharts](https://apexcharts.com/) for rich data visualization.
 
-### Prerequisites
+For a deeper dive into the system design, please refer to our [ARCHITECTURE.md](./ARCHITECTURE.md).
 
-To get started with Orqys, ensure you have the following prerequisites installed and set up:
+---
 
-* Node.js 18.x or later (recommended to use Node.js 20.x or later)
+## 🚀 Local Development
 
-### Cloning the Repository
+If you'd like to explore the code or run the playground locally:
 
-Clone the repository using the following command:
-
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/Orqys/free-nextjs-admin-dashboard.git
+git clone https://github.com/Orqys/orqys-playground.git
 ```
 
-> Windows Users: place the repository near the root of your drive if you face issues while cloning.
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-1. Install dependencies:
+### 3. Run the Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+---
 
-   > Use `--legacy-peer-deps` flag if you face peer-dependency error during installation.
+## 📄 License
 
-2. Start the development server:
+Orqys Playground is released under the [MIT License](./LICENSE).
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+## 🤝 Support
 
-## Components
+If you have any questions or need help setting up your demo, reach out to us at [support@orqys.com](mailto:support@orqys.com) or join our community Slack.
 
-Orqys is a pre-designed starting point for building a web-based dashboard using Next.js and Tailwind CSS. The template includes:
-
-* Sophisticated and accessible sidebar
-* Data visualization components
-* Profile management and custom 404 page
-* Tables and Charts(Line and Bar)
-* Authentication forms and input elements
-* Alerts, Dropdowns, Modals, Buttons and more
-* Can't forget Dark Mode 🕶️
-
-All components are built with React and styled using Tailwind CSS for easy customization.
-
-## Feature Comparison
-
-### Free Version
-
-* 1 Unique Dashboard
-* 30+ dashboard components
-* 50+ UI elements
-* Basic Figma design files
-* Community support
-
-### Pro Version
-
-* 7 Unique Dashboards: Analytics, Ecommerce, Marketing, CRM, SaaS, Stocks, Logistics (more coming soon)
-* 500+ dashboard components and UI elements
-* Complete Figma design file
-* Email support
-
-To learn more about pro version features and pricing, visit our [pricing page](https://Orqys.com/pricing).
-
-## Changelog
-
-### Version 2.2.3 - [March 15, 2026]
-
-* update ESLint configuration and dependencies; upgrade Next.js to version 16.1.6
-
-### Version 2.2.2 - [December 30, 2025]
-
-* Fixed date picker positioning and functionality in Statistics Chart.
-
-
-### Version 2.1.0 - [November 15, 2025]
-
-* Updated to Next.js 16.x
-* Fixed all reported minor bugs
-
-### Version 2.0.2 - [March 25, 2025]
-
-* Upgraded to Next.js 16.x for [CVE-2025-29927](https://nextjs.org/blog/cve-2025-29927) concerns
-* Included overrides vectormap for packages to prevent peer dependency errors during installation.
-* Migrated from react-flatpickr to flatpickr package for React 19 support
-
-### Version 2.0.1 - [February 27, 2025]
-
-#### Update Overview
-
-* Upgraded to Tailwind CSS v4 for better performance and efficiency.
-* Updated class usage to match the latest syntax and features.
-* Replaced deprecated class and optimized styles.
-
-#### Next Steps
-
-* Run npm install or yarn install to update dependencies.
-* Check for any style changes or compatibility issues.
-* Refer to the Tailwind CSS v4 [Migration Guide](https://tailwindcss.com/docs/upgrade-guide) on this release. if needed.
-* This update keeps the project up to date with the latest Tailwind improvements. 🚀
-
-### v2.0.0 (February 2025)
-
-A major update focused on Next.js 16 implementation and comprehensive redesign.
-
-#### Major Improvements
-
-* Complete redesign using Next.js 16 App Router and React Server Components
-* Enhanced user interface with Next.js-optimized components
-* Improved responsiveness and accessibility
-* New features including collapsible sidebar, chat screens, and calendar
-* Redesigned authentication using Next.js App Router and server actions
-* Updated data visualization using ApexCharts for React
-
-#### Breaking Changes
-
-* Migrated from Next.js 14 to Next.js 16
-* Chart components now use ApexCharts for React
-* Authentication flow updated to use Server Actions and middleware
-
-[Read more](https://Orqys.com/docs/update-logs/nextjs) on this release.
-
-### v1.3.4 (July 01, 2024)
-
-* Fixed JSvectormap rendering issues
-
-### v1.3.3 (June 20, 2024)
-
-* Fixed build error related to Loader component
-
-### v1.3.2 (June 19, 2024)
-
-* Added ClickOutside component for dropdown menus
-* Refactored sidebar components
-* Updated Jsvectormap package
-
-### v1.3.1 (Feb 12, 2024)
-
-* Fixed layout naming consistency
-* Updated styles
-
-### v1.3.0 (Feb 05, 2024)
-
-* Upgraded to Next.js 14
-* Added Flatpickr integration
-* Improved form elements
-* Enhanced multiselect functionality
-* Added default layout component
-
-## License
-
-Orqys Next.js Free Version is released under the MIT License.
-
-## Support
-If you find this project helpful, please consider giving it a star on GitHub. Your support helps us continue developing and maintaining this template.
+---
+*Built with ❤️ by the Orqys Team.*
