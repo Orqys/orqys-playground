@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   title: "Orqys",
   description: "A premium application.",
   icons: {
-    icon: "/images/logo/orqys-logo.png",
-    shortcut: "/images/logo/orqys-logo.png",
-    apple: "/images/logo/orqys-logo.png",
+    icon: "/images/logo/random-favicon.jpg",
+    shortcut: "/images/logo/random-favicon.jpg",
+    apple: "/images/logo/random-favicon.jpg",
   },
 };
 
